@@ -1,0 +1,74 @@
+baseURL = "http://www.imagedz.com/"
+languageCode = "zh"
+defaultContentLanguage = "zh"
+title = "广州匠新数据服务有限公司"
+theme = "hugo-universal-theme"
+disqusShortname = ""
+pygmentsUseClasses = false
+pygmentCodeFences = true
+paginate = 10
+
+[menu]
+[[menu.main]]
+    name = "主页"
+    url  = "/"
+    weight = 1
+	
+[[menu.main]]
+    name = "博客"
+    url  = "/blog/"
+    weight = 2
+		
+[[menu.main]]
+    name = "联系我们"
+    url  = "/contact/"
+    weight = 3
+	
+[[menu.main]]
+	name = "新闻动态"
+	url = "/news/"
+	weight = 4
+
+[[menu.main]]
+	name = "关于匠新"
+	url = "/about/"
+	weight = 5
+
+	
+	
+[params]
+    #viewMorePostLink = "/blog/"
+    author = "ImageDZ"
+    defaultKeywords = ["imagedz"]
+    defaultDescription = "广州匠新数据服务有限公司"
+    description = "广州匠新数据服务有限公司"
+    googleMapsApiKey = ""
+    baiduKey=""
+	style = "violet"
+    errorimage = "https://ws1.sinaimg.cn/large/00704eQkgy1frkahxdca2j30hd08wq52.jpg"
+    about_us = "<p>广州匠新数据服务有限公司</p>"
+    copyright = "Copyright ©️ 2019, ImageDZ all rights reserved."
+
+    # Go语言格式的时间模板
+    date_format = "2019-11-18"
+	# 网站logo
+    logo = "img/logo.jpg"
+
+[params.carousel]
+    enable = true
+    # 设置首页大风车的背景图片
+    background = "https://ws1.sinaimg.cn/large/00704eQkgy1frlkpcfzt4j30zk0k0at2.jpg"
+	# 社区活动栏目
+[params.testimonials]
+    enable = true
+    title = "核心团队"
+    subtitle = "广州匠新数据服务有限公司是一家全球AI商业应用服务商，具备行业内领先的图像识别、语义分析和大数据技术，长期服务于乳制品、奶粉、日化、食品、饮料等企业，拥有丰富的商业技术咨询服务经验。核心业务包括线下货架洞察、电商监测洞察、线上舆情洞察等，依托海量图片数据库，独创的Retail-Net商品识别网络等强大智能科技助力企业业绩增长。"
+
+[Permalinks]
+    blog = "/blog/:filename/"
+	
+	
+
+
+	
+	
